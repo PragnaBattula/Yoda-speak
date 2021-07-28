@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+:root {
+    --primary-color: #A7F3D0;
+    --black: #333333;
+    --width-break: 600px;
+    --font-family:'Sniglet';
+    
+}
+
+body{
+    margin:0px;
+    font-family: var(--font-family);
+}
+
+
+.navigation{
+    background-color: var(--primary-color);
+    padding:0.2rem;
+    display: block;
+}
+
+.navigation .nav-brand{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+main{
+    margin:auto;
+    padding: 0.5rem;
+    max-width: var(--width-break); 
+    box-sizing: border-box;
+    padding-top:2rem;
+    
+}
+
+#txt-input{
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    min-height: 20vh;
+    margin:1rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border: none;
+    margin:1rem;
+    padding:1rem 2rem;
+    font-family: var(--font-family);
+    font-size: large;
+   display: block;
+   cursor: pointer;
+   
+}
+
+div{
+    margin:1rem;
+    display:block;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+#output{
+    padding:2rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 12vh;
+    margin:1rem;
+    overflow: scroll;
+    font-size: large;
+    border: 1px solid black;
+}
+
+
+footer{
+    /* box-sizing: border-box; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    display: block;
+    
+    
+}
+
+.footer-txt{
+    max-width: var(--width-break);
+    margin:auto;
+    display: block;
+    box-sizing: border-box;
+    text-align:center;
+    
+} 
+
